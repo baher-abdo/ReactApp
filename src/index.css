@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: white;
+}
+
+.filter{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+li .active{
+    background-color: #0d9488;
+}
+nav{
+    transition:all 0.5s;
+}
