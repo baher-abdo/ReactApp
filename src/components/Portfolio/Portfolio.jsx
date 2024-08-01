@@ -10,7 +10,7 @@ export default function Portfolio() {
 
   return (
     <>
-    <div className="portfolio bg-white mt-36 mb-10 md:px-32 flex items-center">
+    <div className="portfolio bg-white mt-36 mb-10 md:px-10 lg:px-32 flex items-center">
       <div className="flex flex-col justify-center text-center">
         <div className="content">
           <h1 className='text-4xl font-bold mb-5 text-slate-600'>PORTFOLIO COMPONENT</h1>
@@ -48,7 +48,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div onClick={(e)=>{e.target.tagName == "IMG" ? setFilter(true) : setFilter(false)}} className={`fixed inset-0 bg-sky-600 bg-opacity-50 z-50 flex justify-center items-center ${filter?'show':'hidden'}`}>
-        <img className='w-4/5 md:w-2/5' src={imgPath} alt="portfolio-img" />
+        <img className='w-full md:w-1/2' src={imgPath} alt="portfolio-img" />
         </div>
     </div>
     </>

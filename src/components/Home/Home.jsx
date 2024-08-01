@@ -5,7 +5,7 @@ import avatar from '../../images/avataaars.svg'
 export default function Home() {
   return (<>
     <div className="home h-screen bg-teal-600 flex items-center">
-      <div className="container mx-auto flex flex-col text-center">
+      <div className="container mx-auto flex flex-col text-center mt-24">
         <div className="image min-w-60 mb-10 mx-auto">
         <img src={avatar} alt="avatar" />
         </div>

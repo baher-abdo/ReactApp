@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
-    <div className="portfolio bg-white flex h-screen items-center my-10">
+    <div className="portfolio bg-white flex h-screen items-center m-10">
       <div className="container mx-auto flex flex-col justify-center">
           <div className="content">
           <h1 className='text-4xl font-bold mb-5 text-slate-600 text-center'>CONATCT SECTION</h1>
@@ -31,7 +31,7 @@ export default function Contact() {
                         <label htmlFor="userPassword" className="peer-focus:font-normal absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-teal-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">userPassword</label>
                     </div>
                   </div>
-                  <button type="submit" className="text-white bg-teal-600 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center">Send Message</button>
+                  <button type="submit" className="text-white bg-teal-600 hover:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center" onClick={e => (e.preventDefault())}>Send Message</button>
                 </form>
           </div>
       </div>

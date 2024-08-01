@@ -6,7 +6,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
-import Error404 from './Error404/Error404'
+import PageNotFound from './components/PageNotFound/PageNotFound'
 
 
 
@@ -19,7 +19,7 @@ let pages = createBrowserRouter([
     {path:"about",element:<About/>},
     {path:"portfolio",element:<Portfolio/>},
     {path:"contact",element:<Contact/>},
-    {path:"*",element:<Error404/>},
+    {path:"*",element:<PageNotFound/>},
   ]}
 
 ])
