@@ -6,8 +6,7 @@ import React, { useState } from 'react'
 export default function Portfolio() {
   let [filter, setFilter] = useState(false)
   let [imgPath, setImgPath] = useState("")
-
-
+  document.title = 'Portfolio'
   return (
     <>
     <div className="portfolio bg-white mt-36 mb-10 md:px-10 lg:px-32 flex items-center">

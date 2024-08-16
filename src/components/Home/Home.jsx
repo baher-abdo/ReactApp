@@ -3,6 +3,7 @@ import avatar from '../../images/avataaars.svg'
 
 
 export default function Home() {
+  document.title = 'Home'
   return (<>
     <div className="home h-screen bg-teal-600 flex items-center">
       <div className="container mx-auto flex flex-col text-center mt-24">

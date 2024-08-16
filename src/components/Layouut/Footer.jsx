@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="about sm:py-10 p-3">
-              <h1 className='text-2xl font-bold	 mb-2'>AROUND THE WEB</h1>
+              <h1 className='text-2xl font-bold	 mb-2'>ABOUT FREELANCER</h1>
               <p>Freelance is a free to use, licensed Bootstrap theme created by Route</p>
             </div>
           </div>

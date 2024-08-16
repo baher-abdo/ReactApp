@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Contact() {
+  document.title = 'Contact'
   return (
     <>
     <div className="portfolio bg-white flex h-screen items-center m-10">
